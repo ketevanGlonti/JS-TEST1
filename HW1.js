@@ -24,10 +24,7 @@ let c= a+b
 console.log (c) ;
 
 let phone = ["iphone", "samsung","pixel" ,"Huawei", "Xiaomi","Xiaomi"]
-console.log (phone) 
-
-
-;
+console.log (phone) ;;
 
 
 
