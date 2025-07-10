@@ -15,14 +15,7 @@ for (let i = 3; i <= 8; i++) {
     result *= i;
 }
 console.log(result);
-// ან
-let i = 3;
-let result = 1;
-while (i <= 8) {
-  result *= i;
-  i++;
-}
-console.log( result);
+
 
 //4. Გამოაცხადეთ ობიექტი person რომელსაც აქვს firstName, lastName, age და დაბეჭდეთ person-სრული სახელი ( სახელი და გვარი)
  
@@ -34,18 +27,14 @@ let person = {
 console.log(person.firstName + " " + person.lastName);
 
 //5. დაბეჭდეთ მეოთხე დავალებაში გამოცხადებული პერსონის თითოეული property value 
-const person = {
-    firstName: "Ketevan",
-    lastName: "Glonti",
-    age: 28
-} ;
+
 for (const key in person) {
     console.log (key + ": " + person [key]);
 }
 
 
 //6. დაწერეთ მასივი fruits ელემენტებით ["Apple", "Banana", "Orange"]; დაბეჭდეთ მასივის თითოეული წევრი
-let fruits = ["Apple", "Banana", "Orange"];
+const fruits = ["Apple", "Banana", "Orange"];
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
@@ -63,3 +52,9 @@ for (let i = 1; i <= 34; i++) {
     sum += i;
 }
 console.log(sum);
+
+
+person.adress = "tbilisi"
+delete person.age  
+console.log (person )
+
